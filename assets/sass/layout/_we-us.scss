@@ -1,0 +1,47 @@
+.we-us{
+    background-color:$white;
+    padding: 1rem 3rem;
+
+    p{
+        color: $quick-silver;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 16rem 3rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 3rem 5rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .we-us{
+        background-color:$white;
+        padding: 2rem 3rem 5rem 3rem;
+    
+        p{
+            color: $quick-silver;
+            margin-bottom: 3rem;
+        }
+    }   
+}
+
+

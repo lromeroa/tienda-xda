@@ -1,0 +1,36 @@
+//esquema de colores
+//primer esquema
+$white: #ffffff;
+$isabelline: #ececec;
+$light-gray: #d1d1d1;
+
+//segundo esquema de color 
+$smoky-black: #0c0910;
+$granite-gray: #646266;
+$quick-silver: #a6a5a8;
+
+//tipografia
+$old-standard: 'Old Standard TT', serif;
+$raleway: 'Raleway', sans-serif;
+
+//peso tipografico
+$regular: 400;
+$bold: 700;
+
+// font size
+$xxx-large: 3.125rem;
+$xx-large: 1.875rem;
+$x-large: 1.25rem;
+$large: 1.125rem;
+$medium: 1rem;
+$small: 0.875rem;
+$x-small: 0.75rem;
+
+///variable para operar la funcion de llamado imagenes  Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+/* parar llamar a imagenes coloco el key = la funsion (el nombre);
+ejemplo background-image: img(casa. jpg)*/

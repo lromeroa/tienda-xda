@@ -1,0 +1,91 @@
+.btn-shop{
+padding: .5rem .8rem;
+border: 1px solid $granite-gray;
+color: $smoky-black;
+font-family: $raleway;
+font-weight: $bold;
+font-size: $x-small;
+background-color:$white;
+    
+    &:hover{
+        border: 1px solid $light-gray;
+    }
+
+    &:focus{
+        border: 1px solid $light-gray;
+        color:  $light-gray;
+        font-size: $x-small;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .btn-shop{
+        padding: .7rem 1.5rem;
+        border: 1px solid $granite-gray;
+        color: $smoky-black;
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: $medium;
+        background-color:$white;
+            
+            &:hover{
+                border: 1px solid $light-gray;
+            }
+        
+            &:focus{
+                border: 1px solid $light-gray;
+                color:  $light-gray;
+                font-weight: $regular;
+            }
+        
+        }
+        
+ }
+
+ @media only screen and  (min-width: 992px){
+    .btn-shop{
+        padding: .7rem 1.5rem;
+        border: 1px solid $granite-gray;
+        color: $smoky-black;
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: $medium;
+        background-color:$white;
+            
+        &:hover{
+            border: 1px solid $light-gray;
+        }
+        
+        &:focus{
+            border: 1px solid $light-gray;
+            color:  $light-gray;
+            font-weight: $regular;
+        }
+        
+    }
+        
+}
+@media only screen and (min-width: 1200px){
+    .btn-shop{
+        padding: .7rem 1.5rem;
+        border: 1px solid $granite-gray;
+        color: $smoky-black;
+        font-family: $raleway;
+        font-weight: $bold;
+        font-size: $medium;
+        background-color:$white;
+            
+        &:hover{
+            border: 1px solid $light-gray;
+        }
+        
+        &:focus{
+            border: 1px solid $light-gray;
+            color:  $light-gray;
+            font-weight: $regular;
+        }
+        
+    }
+
+}

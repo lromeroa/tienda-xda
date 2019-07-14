@@ -1,0 +1,124 @@
+.newsletter {
+    background-color:$smoky-black;
+    color: $white;
+    font-family: $old-standard;
+    display: block;
+    
+    &-box{
+        padding: 1rem 3rem;
+
+        h2{
+            margin-bottom: .5rem;
+        }
+
+        form{
+            display:block;
+
+        }
+        label{
+        font-size: $medium; 
+        }
+
+        input{
+            margin-top: .3rem;
+            display: block;
+            width: 100%;
+        }
+    }
+   
+}
+@media only screen and (min-width: 768px){
+    .newsletter {
+        background-color:$smoky-black;
+        color: $white;
+        font-family: $old-standard;
+        display: block;
+        
+        &-box{
+            padding: 1.5rem 3rem 5rem 3rem;
+    
+            h2{
+                margin-bottom: .5rem;
+            }
+    
+            form{
+                display:block;
+    
+            }
+            label{
+            font-size: $large; 
+            }
+    
+            input{
+                margin-top: .3rem;
+                display: block;
+                width: 100%;
+            }
+        }
+       
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .newsletter {
+        background-color:$smoky-black;
+        color: $white;
+        font-family: $old-standard;
+        display: block;
+        
+        &-box{
+            padding: 1.5rem 3rem 5rem 3rem;
+    
+            h2{
+                margin-bottom: .5rem;
+            }
+    
+            form{
+                display:block;
+    
+            }
+            label{
+            font-size: $large; 
+            }
+    
+            input{
+                margin-top: .3rem;
+                display: block;
+                width: 100%;
+            }
+        }
+       
+    }    
+}
+
+@media only screen and (min-width: 1200px){
+    .newsletter {
+        background-color:$smoky-black;
+        color: $white;
+        font-family: $old-standard;
+        display: block;
+        
+        &-box{
+            padding: 1.5rem 3rem 8rem 3rem;
+    
+            h2{
+                margin-bottom: .5rem;
+            }
+    
+            form{
+                display:block;
+    
+            }
+            label{
+            font-size: $large; 
+            }
+    
+            input{
+                margin-top: .3rem;
+                display: block;
+                width: 100%;
+            }
+        }
+       
+    }    
+}

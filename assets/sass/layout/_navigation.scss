@@ -1,0 +1,134 @@
+figure{
+    margin: 0;
+}
+
+.header {
+    display: inline-block;
+    width: 100vw;
+  }
+
+
+.navegation{
+    position: relative;
+    margin: .5rem auto;
+
+    &__logo{
+        position: absolute;
+        //sobra segun yo --> top: .9rem;
+        left: 2.5rem;
+    }
+    &__logo-style{
+        width: 2rem;
+        height: 2rem;
+        background-color:$smoky-black;
+        font-family: $old-standard;
+        color: $white;
+        padding: .6rem;
+        margin:0;
+    }
+
+    &__container{
+        //este tenia problema, estaba en min-height por eso no tomaba
+        max-height: 0;
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+
+        a{
+            display: block;
+            text-align: left;
+            padding: .5em;
+            font-family: $raleway;
+            font-size: $small;
+            font-weight: $bold;
+            color:$smoky-black;
+            text-decoration: none;
+
+        }
+
+        a:hover{
+            color:$quick-silver;
+            font-weight: $regular;
+        }
+
+    }
+}
+
+.collapsible{
+    text-align: right;
+
+    label{
+        display: block;
+       // segun yo-> padding: .5rem 1.5rem .5rem 0;
+       padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-right: 1.5rem;
+        font-size: $small;
+    }
+}
+
+
+#menu{
+    display: none;
+}
+
+input:checked ~ .navegation__container{
+     max-height: 100%;
+}
+
+.navegation__logo--tmn{
+    width: 20%;
+}
+
+@media only screen and (min-width:992px){
+
+    .navegation{
+        &__logo{
+            top: 1em;
+            left: 3em;
+        }
+
+        &__container{
+            max-height: 100%;
+            padding: .5em 3em .5em 0;
+            overflow: visible;
+
+        }
+
+        &__list{
+            display: flex;
+            justify-content: flex-end;
+            padding: inherit;
+            margin: inherit;
+        }
+
+        &__item{
+            a{
+                padding: .5em 1em;
+                font-family: $raleway;
+                font-size:$medium;
+                font-weight: $bold;
+                color:$smoky-black;
+            }
+
+            a:hover{
+                color:$quick-silver;
+                font-weight: $regular;
+            }
+
+        }
+    }
+
+    .collapsible{
+        label{
+            display: none;
+        }
+    }
+}
